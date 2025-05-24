@@ -28,7 +28,7 @@ function Hero() {
   return (
     <section 
       id="home" 
-      className="h-screen font-raleway relative overflow-hidden pt-20"
+      className="h-screen font-raleway relative overflow-hidden pt-40"
       role="banner"
       aria-label="Hero section introducing BoostBnB Airbnb marketing services"
     >
@@ -78,17 +78,17 @@ function Hero() {
       </div>
 
       {/* Trust Badge */}
-      <div className="relative z-20 pt-4 sm:pt-6">
+      {/* <div className="relative z-20 pt-4 sm:pt-6">
         <div className="flex justify-center px-4">
           <div className="inline-flex items-center bg-white/90 backdrop-blur-md text-gray-800 rounded-full px-4 sm:px-6 py-2 sm:py-3 border border-white/20 shadow-2xl">
             <Star className="w-3 h-3 sm:w-4 sm:h-4 mr-2 text-yellow-500 fill-current" aria-hidden="true" />
             <span className="text-xs sm:text-sm font-medium">Trusted by 50+ Property Owners in Sri Lanka</span>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* Main Content Container */}
-      <div className="relative z-10 h-85vh flex items-center">
+      <div className="relative z-10 h-100vh flex items-center">
         <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
           
           {/* State Toggle Controls */}

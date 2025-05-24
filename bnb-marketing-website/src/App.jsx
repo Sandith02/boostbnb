@@ -8,6 +8,9 @@ function App() {
       <main className="">
         <Hero />
       </main>
+      <main className="">
+        <div>dgdgg</div>
+      </main>
     </div>
   )
 }
