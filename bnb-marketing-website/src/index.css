@@ -1,84 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Gabarito:wght@400..900&family=Megrim&family=Michroma&family=Orbitron:wght@400..900&family=Outfit:wght@100..900&family=Oxanium:wght@200..800&family=Pacifico&family=Questrial&family=Raleway:ital,wght@0,100..900;1,100..900&family=Red+Hat+Mono:ital,wght@0,300..700;1,300..700&family=Space+Grotesk:wght@300..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Turret+Road:wght@200;300;400;500;700;800&display=swap');
 @import "tailwindcss";
 
-/* Reset and base styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.font-bitter {
+  font-family: 'Bitter', serif;
 }
-
-body {
-  font-family: 'Inter', system-ui, sans-serif;
-  line-height: 1.6;
-  color: #333;
+.font-cormorant {
+  font-family: 'Cormorant', serif;
 }
-
-/* Utility classes */
-.btn-primary {
-  background-color: #6366f1;
-  color: white;
-  font-weight: 500;
-  padding: 0.5rem 1rem;
-  border-radius: 0.5rem;
-  border: none;
-  cursor: pointer;
-  transition: background-color 0.2s;
+.font-gabarito {
+  font-family: 'Gabarito', sans-serif;
 }
-
-.btn-primary:hover {
-  background-color: #4f46e5;
+.font-megrim {
+  font-family: 'Megrim', cursive;
 }
-
-.btn-secondary {
-  background-color: #f43f5e;
-  color: white;
-  font-weight: 500;
-  padding: 0.5rem 1rem;
-  border-radius: 0.5rem;
-  border: none;
-  cursor: pointer;
-  transition: background-color 0.2s;
+.font-michroma {
+  font-family: 'Michroma', sans-serif;
 }
-
-.btn-secondary:hover {
-  background-color: #e11d48;
+.font-orbitron {
+  font-family: 'Orbitron', sans-serif;
 }
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 1rem;
+.font-outfit {
+  font-family: 'Outfit', sans-serif;
 }
-
-.text-center {
-  text-align: center;
+.font-oxanium {
+  font-family: 'Oxanium', sans-serif;
 }
-
-.mb-4 {
-  margin-bottom: 1rem;
+.font-pacifico {
+  font-family: 'Pacifico', cursive;
 }
-
-.mb-8 {
-  margin-bottom: 2rem;
+.font-questrial {
+  font-family: 'Questrial', sans-serif;
 }
-
-.p-8 {
-  padding: 2rem;
+.font-raleway {
+  font-family: 'Raleway', sans-serif;
 }
-
-.bg-gradient {
-  background: linear-gradient(135deg, #6366f1 0%, #d946ef 100%);
+.font-space-grotesk {
+  font-family: 'Space Grotesk', sans-serif;
 }
-
-.text-white {
-  color: white;
+.font-space-mono {
+  font-family: 'Space Mono', monospace;
 }
-
-.text-4xl {
-  font-size: 2.25rem;
+.font-turret-road {
+  font-family: 'Turret Road', sans-serif;
 }
-
-.font-bold {
-  font-weight: 700;
+.font-red-hat-mono {
+  font-family: 'Red Hat Mono', monospace;
 }
